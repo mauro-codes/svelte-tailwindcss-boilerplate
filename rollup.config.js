@@ -6,7 +6,7 @@ import { terser } from 'rollup-plugin-terser';
 import css from 'rollup-plugin-css-only';
 import sveltePreprocess from "svelte-preprocess";
 
-const production = !process.env.ROLLUP_WATCH;
+const production = process.env.NODE_ENV === 'production'
 
 function serve() {
 	let server;
