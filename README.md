@@ -1,6 +1,6 @@
 # Svelte + TailwindCSS boilerplate
 
-This is a simple Svelte boilerplate that includes TailwindCSS + PurgeCSS already configured for production
+This is a simple Svelte boilerplate that includes TailwindCSS + PostCSS already configured for production
 
 ## How to use it?
 
